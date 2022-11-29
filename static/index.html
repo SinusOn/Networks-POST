@@ -8,15 +8,17 @@
     <title>Document</title>
   </head>
   <body>
-    <form action="" method="post">
+    <form action="/sendmail" method="post">
       <h3>Email</h3>
-      <input type="email" />
+      <input name="email" type="email" />
       <h3>Пароль приложений</h3>
-      <input type="password" />
+      <input name="pass" type="password" />
       <h3>Тема письма</h3>
-      <input type="text" />
+      <input name="tema" type="text" />
       <h3>Тест</h3>
-      <input type="text" />
+      <input name="text" type="text" />
+      <br />
+      <button type="submit">Отправить</button>
     </form>
     <script src="/script.js"></script>
   </body>
